@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="installing_coverity_connect">
+    <title>Installing Coverity Connect</title>
+    <shortdesc> A quick brief guide on the steps required to install Coverity Connect</shortdesc>
+    <taskbody>
+        <context>
+            <p>The following will provide steps on how to install Coverity connect. After the installation you are able to install IDE plug ins for Coverity for a varitys of differnet IDEs.</p>
+            <p>Consider the following before installing</p>
+            <ul>
+                <li>Are you using an embedded or external database?</li>
+                <li>Check your current hardware with the Coverity hardware requiremnts found in the deployment planning documents.</li>
+                <li>Database administrator must alter file settings for the requiements of your systems.</li>
+            </ul>
+        </context>
+        
+        <steps>
+            <step>
+                <cmd>Before installing always verify that the enviroment meets the requirments.</cmd>
+            </step>
+            <step>
+                <cmd>Download Coverity Platform Installer onto your OS inoder to install Coverity Connect.</cmd>
+            </step>
+            <step>
+                <cmd>Coverity Connect server software can run on Windows and linux if you choose not to run Coverity Connect as a service.</cmd>
+            </step>
+            <step>
+                <cmd>Run the follwing script or program for your system</cmd>
+                <info>Linux 
+                    <ul>
+                        <li>cov-platform-linux64-2026.3.0.sh</li>
+                    </ul>
+                </info>
+                <info>Windows 64-bit
+                    <ul>
+                        <li>cov-platform-win64-2026.3.0.exe</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Finish off installation</cmd>
+                <info>
+                    <ul>
+                        <li>Accept licenseing agreements</li>
+                        <li>Start the fresh installation</li>
+                        <li>Enter desired location for installation</li>
+                        <li>Select database type and enter the requeired information</li>
+                        <li>Continue to follow set up steps and enter information requested</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Check Installation</cmd>
+                <info>Launch Coverity Connect with one of the urls</info>
+                <ul>
+                    <li>http://hostname:http_port</li>
+                    <li>https://hostname:https_port</li>
+                </ul>
+            </step>
+        </steps>
+
+           <postreq> If in need of any assistance please visit the online documentation available at 
+               <xref  format="html" href="https://documentation.blackduck.com/bundle/coverity-docs/page/deploy-install-guide/topics/installing_coverity_connect.html"> Black Ducks Documentation.</xref>
+           </postreq>
+    </taskbody>
+</task>

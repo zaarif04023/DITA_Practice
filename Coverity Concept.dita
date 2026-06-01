@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="coverity_overview">
+    <title>What is Coverity?</title>
+    <shortdesc>Brief description of what Coverity is, how it works and what its used for</shortdesc>
+    <conbody>
+        <p>Coverity is a SAST tool used to read ones source code and detect vulnerabilities, bugs,
+            and poor code quality and standerds</p>
+        
+        <p>Coverity consists of 2 components</p>
+        <dl>
+            <dlentry>
+                <dt>Coverity Analysis</dt>
+                <dd>Coverity analysis is component that is scanning through your source code for
+                    issues to flag.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Coverity Component</dt>
+                <dd>Coverity component is the web interface where the issues found by Coverity
+                    analysis are logged. These issues are given a description with information such
+                    as what the issue is, who may have inputed it, severity level and more. These
+                    issues can be triaged, assigned to devs and tracked over time.</dd>
+            </dlentry>
+        </dl>
+        
+        
+      <section>
+          <title>How Coverity works</title>
+          <p>Checkers are a collection of programs. Each collection focuses on a specific issue and
+                there are hundreds of checkers. So a wide range of issues are taken a look at from
+                simple to complex. Some examples of what checkers check for are the following. </p>
+          <ul>
+              <li>Memory Curroption</li>
+              <li>NULL pointers</li>
+              <li>Web App Security flaws</li>
+              <li>Coding Standard Violations</li>
+          </ul>
+          
+          <p>Checkers can be configured to be more suited for your development needs.</p>
+          <ul>
+              <li>Enable or disable checkers</li>
+              <li>Alter scopes of checkers</li>
+              <li>Alter general behaviour of checker</li>
+          </ul>
+      </section>
+        
+        <section>
+            <title>Pros and Cons of Coverity</title>
+            <p>Coverity is a great tool that has many advanatages however at the expense of some
+                shortcomings.</p>
+            <table>
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>Pros</entry>
+                            <entry>Cons</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        
+                       <row>
+                           <entry>Can be used early in SDLC</entry>
+                           <entry>Possible false flags</entry>
+                           
+                       </row>
+                        <row>
+                            <entry>Does not need code to run to analyze</entry>
+                            <entry>Can not test run time specific issues</entry>
+                        </row>
+                        <row>
+                            <entry>Comes with web interface that can provide reports, triaging and other services to keep track of issues</entry>
+                            <entry></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            
+        </section>
+        
+        
+    </conbody>
+</concept>
