@@ -12,18 +12,18 @@ This Projects illustarest a simple creation of DITA XML and a DITA map.
 
 <h3>Concept Topic</h3>
 <p>The concept topic demonstrates a basic explanation of something like an idea, product, or service. 
-  In this case, the product/service being explained is Coverity. Within the concept youll find a basic explanation 
+  In this case, the product/service being explained is Coverity. Within the concept you'll find a basic explanation 
   of</p>
   <ul>
     <li>What Coverity is</li>
     <li>What its is composed of</li>
-    <li> How it works </li>
+    <li>How it works </li>
     <li>Benefits and potential drawbacks of Coverity</li>
   </ul>
 
   <h3>Task Topic</h3>
 <p>The task topic demonstrates a basic explanation of how to achieve a certain result and the steps needed to get said result. 
-  In this case, the steps being how to install is Coverity connect.A web application that will display the issues flagged by Coverity Analysis. Within the task, you'll find a basic explanation 
+  In this case, the steps being how to install is Coverity connect. A web application that will display the issues flagged by Coverity Analysis. Within the task, you'll find a basic explanation 
   of</p>
   <ul>
     <li>Things to look out for before attempting to install Coverity Connect</li>
@@ -39,6 +39,10 @@ This Projects illustarest a simple creation of DITA XML and a DITA map.
     <li>How to install Coverity Connect</li>
   </ul>
 
-  <h2>Ability Demonstarted/Lessons Learned</h2>
+  <h2>Skills Demonstrated</h2>
+  | Skill | Details |
+|---|---|
+| Basic Understanding of DITA | Now able and familiar with the creation of basic DITA concepts, tasks, and map files. |
+| XML Markup | Demonstrated ability to create a page with XML markup language |
 
   
