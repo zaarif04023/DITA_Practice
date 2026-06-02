@@ -40,7 +40,8 @@ This Projects illustarest a simple creation of DITA XML and a DITA map.
   </ul>
 
   <h2>Skills Demonstrated</h2>
-  | Skill | Details |
+  
+| Skill | Details |
 |---|---|
 | Basic Understanding of DITA | Now able and familiar with the creation of basic DITA concepts, tasks, and map files. |
 | XML Markup | Demonstrated ability to create a page with XML markup language |
